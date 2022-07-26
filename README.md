@@ -15,9 +15,8 @@ They are:
 - Run Visual Studio
 - Open project and Select and Open InventoryMangement.sln file. All of the files and folder will display your visual studio solution.
 - Otherwise you can Open InventoryMangement folder and Built your own solution for this project.
-- Attach InventoryMangement.mdf database to your MSSQL Database or visual studio local database. 
-- If you can not access database file:
-  - Edit connectionString from `Web.Debug.config` file and add `AttachDbFilename=|Enter your database directory here|IMS_DB.mdf;` 
+- Open IMSDB SQL.sql into your MSSQL Database studio and excute the queries respectivily and then add the database on visual studio local database. 
+- You can not access database file until you edit connectionString from `Web.Debug.config` file and add `AttachDbFilename=|Enter your database directory here|IMS_DB.mdf;` 
 - Login Username: `usman` Password: `2012358`
 
 **Thanks.**
